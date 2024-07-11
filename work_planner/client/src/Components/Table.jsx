@@ -50,25 +50,12 @@ const Table = () => {
 
 
   return <>
-     {/* <table>
-      <thead>
-        <tr>
-          <th>notes</th>
-          
-        </tr>
-      </thead> */}
-      {/* <tbody> */}
+
       <div className='tablediv'>
         {res.map((item, key) => (
           <ul key={key} >
             <li> 
-              {/* <button className='btn btn-secondary' onClick={(e) => {setEdit(true);setLock(item._id);setData(item.notes)}}>
-                UPDATE
-              </button> 
-              <button className='btn btn-secondary' onClick={()=>{updateData(item._id);setEdit(false);setLock("")}}>Save</button>
-                <button className='btn btn-secondary' onClick={() => {setEdit(false); setLock("");}}>
-                  cancel
-                </button>*/}
+
               {lock == item._id ? (<input value={data}  onChange={(e)=>setData(e.target.value)} ></input>) : (<>{item.notes}</>)}
               {!edit ? ( <i className="fa-solid fa-pencil"onClick={(e) => {setEdit(true);setLock(item._id);setData(item.notes)}}></i>
             ) : (
@@ -87,9 +74,7 @@ const Table = () => {
           </ul>
         ))}
 </div>
-      {/* </tbody>
-      
-    </table>  */}
+
   </>
 }
 
