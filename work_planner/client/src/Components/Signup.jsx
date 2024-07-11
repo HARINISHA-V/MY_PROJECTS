@@ -96,29 +96,3 @@ const Signup = () => {
 };
 
 export default Signup;
-// import React, { useState } from 'react';
-
-// const ShowPassword = () => {
-//   const [showPassword, setShowPassword] = useState(false); // State variable to track password visibility
-
-//   const togglePasswordVisibility = () => {
-//     setShowPassword(!showPassword); // Toggle the state between true and false
-//   };
-
-//   return (
-//     <div>
-//       <label htmlFor="password">Password</label>
-//       <br />
-//       <input
-//         type={showPassword ? 'text' : 'password'} // Toggle between 'text' and 'password'
-//         id="password"
-//       />
-//       <br />
-//       <button onClick={togglePasswordVisibility}>
-//         {showPassword ? 'Hide Password' : 'Show Password'}
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default ShowPassword;
