@@ -1,5 +1,7 @@
 
 Music Card Project:
+![music card](https://github.com/user-attachments/assets/94c2e7d1-cb71-4526-abb3-2190209164c6)
+
 
 This project implements a Music Card using HTML, CSS, Bootstrap, and JavaScript. The Music Card allows users to play, pause, and download music tracks.
 
