@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+  width: 100%;
+  height: 100vh;
+  /* background:linear-gradient(rgb(4, 11, 16),rgb(6, 68, 107),rgb(23, 82, 119)); */
+  background: url('./Assets/bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  
+  
+}
+.signupdiv1,.signin1,.updatepass1{
+  border: 2px solid black;
+  backdrop-filter: blur(20px);
+  width:450px;
+  border-radius: 15px;
+  justify-content: center;
+  place-items: center;
+}
+.signupdiv1> input,.signin1> input,.updatepass1 >input{
+  
+  border-radius: 10px;
+  padding: 5px;
+  outline: 0;
+}
+.signupdiv button,.signin1 button,.updatepass1 button{
+  
+  color: aliceblue;
+}
+.signupdiv,.signin,.updatepass{
+  margin-top: 70px;
+
+  justify-content: center;
+  width: 100%;
+  
+}
+.main{
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  height: auto;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 15px;
+}
+.password i{
+  color: rgb(6, 6, 6);
+}
+.password{
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.password>input{
+  border:0;
+  width: 90%;
+  outline: 0;
+}
+
+/* table */
+.fa-pencil,.fa-trash{
+  color: rgb(61,118,159);
+  color: rgb(4, 53, 95);
+  background-color: aliceblue;
+  border-radius: 3px;
+  padding: 1px;
+  margin: 2px;
+}
+.fa-trash{
+color: rgb(131, 29, 29);
+
+}
+.fa-trash:hover{
+  color: rgb(241, 36, 36);
+  padding: 3px;
+}
+.fa-pencil:hover{
+  padding: 3px;
+}
+.fa-xmark{
+  color: rgb(155,47,82);
+  background-color: rgb(157, 159, 161);
+  border-radius: 3px;
+  padding: 1px;
+  margin: 2px;
+}
+.fa-check{
+color: rgb(43, 139, 81);
+background-color: rgb(157, 159, 161);
+border-radius: 3px;
+padding: 1px;
+margin: 2px;
+}
+.fa-check:hover,.fa-xmark:hover{
+background-color: aliceblue;
+padding: 3px;
+}
+
+.taskipbox ,.tablediv input{
+  border-radius: 15px;
+  padding: 20px;
+  width:85%;
+}
+.taskip button{
+  margin: 8px;
+  color: aliceblue;
+  background-color: rgba(33, 217, 134, 0.803);
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.title h1{
+  
+  font-family: pacifico;
+  font-style: italic;
+  padding: 10px;
+  color: rgb(13, 57, 57);
+  text-shadow:   0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
+#titlebtn{
+  background-color: rgb(140, 51, 101);
+  color: rgb(241, 228, 232);
+  margin: 15px;
+  border-radius: 10px;
+  
+}
